@@ -1,0 +1,44 @@
+<!DOCTYPE web-app PUBLIC
+        "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+    <servlet-name>AddEmployee</servlet-name>
+    <servlet-class>AddEmployee</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>AddEmployee</servlet-name>
+    <url-pattern>/AddEmployee</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>EmployeeList</servlet-name>
+    <servlet-class>EmployeeList</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>EmployeeList</servlet-name>
+    <url-pattern>/EmployeeList</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>EmployeeUpdate</servlet-name>
+    <servlet-class>EmployeeUpdate</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>EmployeeUpdate</servlet-name>
+    <url-pattern>/EmployeeUpdate</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>EmployeeDelete</servlet-name>
+    <servlet-class>EmployeeDelete</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>EmployeeDelete</servlet-name>
+    <url-pattern>/EmployeeDelete</url-pattern>
+  </servlet-mapping>
+</web-app>
